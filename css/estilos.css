@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+fuentes aqui import
+
+body {
+    font-family: Arial, san-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh
+    backgroung-color #f0f0f0;
+}
+
+/*Header*/
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    img{
+        max-width: 100px;
+    }
+}
+
+
+.encabezado h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px  rgba(0, 0, 0, 0.2);
+    font-size: 2.5rem;}
+
+.verde {
+    color: rgb(35, 119, 63);
+}
+
+.boton{
+    background-color: rgb(35, 119, 63);
+    color: #FAFAFA;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.boton:hover {
+background-color: rgb(58, 204, 107);
+color: #FAFAFA;
+cursor: pointer;
+}
+
+.encabezado li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+
