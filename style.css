@@ -74,22 +74,22 @@
 }
 .changecontent::after{
     content: ' ';
-    color: #ffa500;
+    color: #3ba440;
     text-shadow: 0px 1px 1px black;
     animation: changetext 10s infinite linear;
 }
 @keyframes changetext{
-    0%{content: "France";}
-    10%{content: "Spain";}
-    20%{content: "United States";}
+    0%{content: "Francia";}
+    10%{content: "España";}
+    20%{content: "Estados Unidos";}
     30%{content: "China";}
     40%{content: "India";}
     50%{content: "Pakistan";}
-    60%{content: "Italy";}
-    70%{content: "Turkey";}
-    80%{content: "Mexico";}
-    90%{content: "Germany";}
-    100%{content: "United kingdom";}
+    60%{content: "Italia";}
+    70%{content: "Turquía";}
+    80%{content: "México";}
+    90%{content: "Alemania";}
+    100%{content: "Gran Bretaña";}
 } 
 .home .content p{
     color: white;
